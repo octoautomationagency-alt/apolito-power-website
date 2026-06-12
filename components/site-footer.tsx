@@ -1,4 +1,4 @@
-import { Instagram, Facebook, MapPin, Phone, Mail } from 'lucide-react'
+import { Instagram, MapPin, Phone, Mail } from 'lucide-react'
 import { Logo } from '@/components/logo'
 import { navLinks, site } from '@/lib/site-data'
 
