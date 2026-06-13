@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section id="home" className="relative flex min-h-screen items-center overflow-hidden">
       <Image
-        src="/images/hero.png"
+        src="/apolito%20iamges/cardioroom3.jpg"
         alt="Atleta che si allena nella palestra Apolito Power"
         fill
         priority

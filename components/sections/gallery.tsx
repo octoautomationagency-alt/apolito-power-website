@@ -2,12 +2,12 @@ import Image from 'next/image'
 import { Reveal } from '@/components/reveal'
 
 const images = [
-  { src: '/images/gallery-1.png', alt: 'Area pesi liberi della palestra' },
-  { src: '/images/gallery-2.png', alt: 'Macchine isotoniche premium' },
-  { src: '/images/coaching.png', alt: 'Sessione con personal trainer' },
-  { src: '/images/gallery-3.png', alt: 'Corso di gruppo in sala' },
-  { src: '/images/svc-spinning.png', alt: 'Sala spinning' },
-  { src: '/images/gallery-4.png', alt: 'Esterno del club Apolito Power' },
+  { src: '/apolito%20iamges/machinelegs.jpg', alt: 'Area pesi liberi della palestra' },
+  { src: '/apolito%20iamges/machine.jpg', alt: 'Macchine isotoniche premium' },
+  { src: '/apolito%20iamges/cardioroom.jpg', alt: 'Sessione con personal trainer' },
+  { src: '/apolito%20iamges/benchpress.jpg', alt: 'Corso di gruppo in sala' },
+  { src: '/apolito%20iamges/trainingroom2.jpg', alt: 'Sala spinning' },
+  { src: '/apolito%20iamges/taichi.jpg', alt: 'Esterno del club Apolito Power' },
 ]
 
 export function Gallery() {

@@ -18,7 +18,7 @@ export function Intro() {
         <Reveal className="relative">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="/images/intro-1.png"
+              src="/apolito%20iamges/massagiebenessere.jpg"
               alt="Interno della palestra Apolito Power"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -27,7 +27,7 @@ export function Intro() {
           </div>
           <div className="absolute -bottom-10 -right-4 hidden aspect-square w-2/5 overflow-hidden rounded-sm border-4 border-background shadow-2xl sm:block">
             <Image
-              src="/images/intro-2.png"
+              src="/apolito%20iamges/machine.jpg"
               alt="Attrezzatura premium della palestra"
               fill
               sizes="20vw"

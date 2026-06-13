@@ -57,7 +57,7 @@ export function Wellness() {
         <Reveal className="relative order-1 lg:order-2">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="/images/wellness.png"
+              src="/apolito%20iamges/saunarom1.jpg"
               alt="Area wellness e relax di Apolito Power"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

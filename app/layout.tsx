@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://apolito-power-website.vercel.app'),
   title: 'Apolito Power | Palestra & Centro Wellness ad Agropoli — Aperta 24/7',
   description:
     'Apolito Power è molto più di una palestra: sala pesi, corsi di spinning e yoga, sauna a infrarossi, doccia emozionale, massaggi, personal trainer e consulenze mediche. Aperta 24 ore su 24, 7 giorni su 7 ad Agropoli.',
@@ -33,8 +34,25 @@ export const metadata: Metadata = {
     title: 'Apolito Power — Fitness, Performance e Benessere ad Agropoli',
     description:
       'Una palestra aperta 24 ore su 24, servizi wellness e professionisti dedicati ai tuoi obiettivi.',
+    url: 'https://apolito-power-website.vercel.app',
+    siteName: 'Apolito Power',
     type: 'website',
     locale: 'it_IT',
+    images: [
+      {
+        url: '/metadata/ogimage.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Apolito Power',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Apolito Power — Fitness, Performance e Benessere ad Agropoli',
+    description:
+      'Una palestra aperta 24 ore su 24, servizi wellness e professionisti dedicati ai tuoi obiettivi.',
+    images: ['/metadata/ogimage.jpg'],
   },
 }
 

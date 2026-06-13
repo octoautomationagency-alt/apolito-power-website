@@ -15,7 +15,7 @@ export function Always() {
         {/* Image side */}
         <div className="relative min-h-[60vh] lg:min-h-[80vh]">
           <Image
-            src="/images/section-247.png"
+            src="/apolito%20iamges/trainingroom.jpg"
             alt="Allenamento notturno nella palestra aperta 24 ore su 24"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"

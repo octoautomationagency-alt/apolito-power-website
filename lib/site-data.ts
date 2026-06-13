@@ -14,7 +14,7 @@ export const site = {
   whatsapp: '393397217410',
   whatsappMessage:
     'Ciao Apolito Power! Vorrei ricevere maggiori informazioni.',
-  instagram: 'https://instagram.com',
+  instagram: 'https://www.instagram.com/apolito_power/',
   facebook: 'https://facebook.com',
   mapsDirections:
     'https://www.google.com/maps/dir/?api=1&destination=Viale+Carmine+Rossi+13+84043+Agropoli+SA+Italia',

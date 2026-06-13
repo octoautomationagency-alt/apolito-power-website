@@ -173,6 +173,34 @@
   animation: apl-marquee 28s linear infinite;
 }
 
+@keyframes apl-fab-attention {
+  0%,
+  18%,
+  100% {
+    transform: scale(1);
+    box-shadow:
+      0 10px 20px oklch(0 0 0 / 0.22),
+      0 0 0 1px oklch(0.74 0.08 80 / 0.12);
+  }
+  9% {
+    transform: scale(1.025);
+    box-shadow:
+      0 14px 28px oklch(0 0 0 / 0.26),
+      0 0 0 1px oklch(0.74 0.08 80 / 0.18),
+      0 0 22px oklch(0.74 0.08 80 / 0.18);
+  }
+}
+
+.apl-fab-attention {
+  animation: apl-fab-attention 2.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  transform-origin: center;
+}
+
+.apl-fab-attention:hover,
+.apl-fab-attention:active {
+  animation-play-state: paused;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .apl-reveal,
   .apl-reveal.is-visible {
@@ -180,6 +208,9 @@
     opacity: 1;
   }
   .apl-marquee {
+    animation: none;
+  }
+  .apl-fab-attention {
     animation: none;
   }
   html {
